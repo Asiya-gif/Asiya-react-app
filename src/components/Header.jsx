@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Header() {
-  return <h1>First Contributions to LuulSolutions</h1>;
+  return (
+    <header className="section">
+      <h1>📊 Welcome to the Interactive Dashboard</h1>
+    </header>
+  );
 }
 
 export default Header;

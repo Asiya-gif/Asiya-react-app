@@ -1,9 +1,11 @@
+import React from 'react';
 
-function Greeting(props) {
+function Greeting({ name, surname }) {
   return (
-    
-      <h1>Hello, {props.name} {props.surname}!</h1>
-      
+    <div className="section" style={{ textAlign: 'center' }}>
+      <h1>Hello, {name} {surname}!</h1>
+      <h2>👋 I'm proud of my work!</h2>
+    </div>
   );
 }
 
